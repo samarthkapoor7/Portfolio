@@ -43,7 +43,9 @@ const Hero = () => {
             <a initial="hidden"
             animate="visible"
             className="group mr-2 mb-7 rounded-full px-7 py-3 flex text-sm items-center gap-2 font-medium text-gradient-to-r from-pink-300 via-slate-500
-            to-purple-500 border border-purple-600 focus:scale-100 hover:scale-100 hover:bg-gray-800 active:scale-105 transition cursor-pointer" href="src\assets\Samarth_cv.pdf" download>
+            to-purple-500 border border-purple-600 focus:scale-100 hover:scale-100 hover:bg-gray-800 active:scale-105 transition cursor-pointer"
+            href="/Samarth_cv.pdf"
+            download>
               Download CV <HiDownload  className="opacity-60 group-hover:translate-y-1 transition" />
             </a>
             </motion.div>
