@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I'm an enthusiastic aspiring full-stack developer eager to build a career in creating robust and scalable web applications. I have been developing my skills in front-end technologies like React and Next.js, as well as back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. I'm excited to apply my knowledge to develop innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -25,11 +26,11 @@ export const PROJECTS = [
     technologies: ["Next.js", "Typescript", "Tailwind CSS", "Open-AI", "Convex"],
   },
   {
-    title: "MovieDeck",
+    title: "SaaS Landing Page",
     image: project2,
     description:
-      "A comprehensive movie recommendation website that integrates IMDb ratings to provide accurate film suggestions.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Node.js", "Fetch API"],
+      "Engaging and responsive SaaS landing page with smooth animations, fast performance, and a sleek, professional design.",
+    technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
   },
   {
     title: "Portfolio Website",
@@ -38,6 +39,13 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
   },
+  {
+    title: "GSAP Landing Page",
+    image: project4,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+  }
 ];
 
 export const CONTACT = {
