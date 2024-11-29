@@ -9,12 +9,19 @@ export const ABOUT_TEXT = `I'm a dedicated and versatile aspiring full-stack dev
 
 export const EXPERIENCES = [
   {
+    year: "Nov 2024 - present",
+    role: "Front End Developer",
+    company: "Unified Mentor",
+    description: `Designed and developed responsive web interfaces for industrial projects using FE frameworks. Adhered to agile methodologies to ensure smooth project workflows and iterative improvements.`,
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+  },
+  {
     year: "Oct 2021 - Nov 2021",
     role: "Graphic Designer",
     company: "Sportsbae",
     description: `Increased social media engagement by 50% during IPL 2021 and grew followers by 20% through targeted campaigns, innovative branding strategies, and leveraging analytics, all while maintaining high-quality standards and consistently meeting tight deadlines to ensure effective project delivery and client satisfaction.`,
     technologies: ["Adobe Photoshop", "After Effects"],
-  },
+  }
 ];
 
 export const PROJECTS = [
@@ -24,6 +31,7 @@ export const PROJECTS = [
     description:
       "A podcast platform that boosts user engagement through personalized authentication, AI-generated audio and thumbnails, and an improved user experience with enhanced form management and interactive features like a sticky podcast player.",
     technologies: ["Next.js", "Typescript", "Tailwind CSS", "Open-AI", "Convex"],
+    link: "https://www.podcastrr.me/",
   },
   {
     title: "SaaS Landing Page",
@@ -31,6 +39,7 @@ export const PROJECTS = [
     description:
       "Engaging and responsive SaaS landing page with smooth animations, fast performance, and a sleek, professional design.",
     technologies: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
+    link: "https://saas-landing-page-ebon.vercel.app/"
   },
   {
     title: "Portfolio Website",
@@ -38,13 +47,15 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    link: "https://samarthkapoor.vercel.app/"
   },
   {
     title: "GSAP Landing Page",
     image: project4,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+      "Aesthetic Landing Page with hover-over effect using GSAP.",
+    technologies: ["HTML", "CSS", "GSAP"],
+    link: "https://gsap-landing-nine.vercel.app/"
   }
 ];
 
